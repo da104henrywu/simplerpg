@@ -6,8 +6,8 @@ import javax.servlet.http.*;
 
 public class HelloWorld extends HttpServlet {
 	
-	int count = 1;
-
+	int count = 0;
+    int car = 6; 
 	public void doGet(HttpServletRequest req, HttpServletResponse res)
 			                         throws ServletException, IOException {
 		doPost(req, res);
